@@ -6,3 +6,13 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f7f7f7; /*фоновый цвет*/
+
+}
+
+.page-wrapper {
+min-width: 375px;
+margin: auto;
+}
