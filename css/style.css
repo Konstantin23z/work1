@@ -15,6 +15,7 @@ body {
 }
 
 .page-wrapper {
+  overflow: hidden;
 width: 375px;
 margin: auto;
 border-radius: 20px;
@@ -22,6 +23,10 @@ box-shadow: -8px -6px 41px 7px rgba(0, 0, 0, 0.31), 7px 9px 54px 6px rgba(0, 0, 
 background: rgb(196, 196, 196);
 }
 
+.container {
+  width: 300px;
+  margin: auto;
+}
 .header {
   padding-top: 40px;
   padding-left: 42px;
@@ -45,4 +50,38 @@ background: rgb(196, 196, 196);
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-   
+}
+
+.user{
+  margin-top: -80px;
+  width: 300px;
+  text-align: center;
+  border-radius: 13px;
+  box-shadow: 7px 9px 31px 4px rgba(0, 0, 0, 0.22), -9px 4px 20px 3px rgba(0, 0, 0, 0.17);
+  background: rgb(255, 252, 252);
+  padding-bottom: 21px;
+}
+
+.user-avatar {
+  margin-top: -43px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0px solid #fffefe;
+}
+
+.user-name {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 4px;
+}
+
+.user-description {
+  font-family: Inter;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
