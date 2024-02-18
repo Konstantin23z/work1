@@ -8,11 +8,41 @@
 }
 
 body {
-  background-color: #f7f7f7; /*фоновый цвет*/
-
+  background-color: #f7f7f7; 
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+     
 }
 
 .page-wrapper {
-min-width: 375px;
+width: 375px;
 margin: auto;
+border-radius: 20px;
+box-shadow: -8px -6px 41px 7px rgba(0, 0, 0, 0.31), 7px 9px 54px 6px rgba(0, 0, 0, 0.31); 
+background: rgb(196, 196, 196);
 }
+
+.header {
+  padding-top: 40px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-bottom: 145px;
+  border-radius: 0px 0px 90px 90px;
+  background:url('../img/Backgraund.png') no-repeat center/ cover;
+}
+
+.hello {
+  color: rgb(9, 250, 34);
+  
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+   
+}
+
+.hello-text {
+  color: rgb(250, 234, 9);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+   
