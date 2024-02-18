@@ -1,0 +1,5 @@
+.box {
+  height: 100vh;
+  background: url('../img/Backgraund.png') no-repeat;
+  border: 2px solid red ;
+}
